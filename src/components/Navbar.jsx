@@ -35,7 +35,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Features
               </li>
             </motion.a>
@@ -45,7 +45,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.7 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 About Us
               </li>
             </motion.a>
@@ -55,7 +55,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 What We Offer
               </li>
             </motion.a>
@@ -65,7 +65,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.9 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Community
               </li>
             </motion.a>
@@ -75,7 +75,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Contact
               </li>
             </motion.a>
