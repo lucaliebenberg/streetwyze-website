@@ -1,6 +1,6 @@
 # Streetwyze
 Online Landing Page for Streetwyze.
-Live demo [here]([(https://streetwyze.netlify.app)]).
+Live demo [here]((https://streetwyze.netlify.app)).
 
 ## Table of Contents
 * [General Info](#general-information)
