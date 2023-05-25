@@ -76,6 +76,7 @@ const Pricing = () => {
       </div>
       <div className="flex flex-col w-[50vw] md:flex-row justify-around ml-auto mr-auto pt-[4rem] pb-8 lg:align-middle">
         <div className="flex-[0.75] bg-white p-8 rounded-2xl mb-[5rem]">
+          <h3 className="text-[2rem] text-black font-semibold">Contact.</h3>
           <form
             ref={formRef}
             onSubmit={sendEmail}
@@ -89,7 +90,7 @@ const Pricing = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your good name?"
-                className="bg-white py-4 px-6 placeholder:text-secondary text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
+                className="bg-white py-4 px-6 placeholder:text-[#CCC] text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
               />
             </label>
             <label className="flex flex-col">
@@ -102,7 +103,7 @@ const Pricing = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="What's your web address?"
-                className="bg-white py-4 px-6 placeholder:text-secondary text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
+                className="bg-white py-4 px-6 placeholder:text-[#CCC] text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
               />
             </label>
             <label className="flex flex-col">
@@ -115,7 +116,7 @@ const Pricing = () => {
                 value={form.message}
                 onChange={handleChange}
                 placeholder="What you want to say?"
-                className="bg-white py-4 px-6 placeholder:text-secondary text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
+                className="bg-white py-4 px-6 placeholder:text-[#CCC] text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
               />
             </label>
 

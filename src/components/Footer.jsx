@@ -40,28 +40,28 @@ const Footer = () => {
           <a
             href="https://www.facebook.com/profile.php?id=100092980838508"
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillFacebook size={24} className="mr-3" />
           </a>
           {/* <a
             href="https://www.twitter.com"
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillTwitterSquare size={24} className="mr-3" />
           </a> */}
           <a
             href="https://instagram.com/streetwyze_?igshid=OGQ5ZDc2ODk2ZA=="
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillInstagram size={24} className="mr-3" />
           </a>
           {/* <a
             href="https://www.linkedin.com"
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+            className="text-[#CCC] font-semibold hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillLinkedin size={24} />
           </a> */}

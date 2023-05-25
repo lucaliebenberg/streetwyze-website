@@ -18,7 +18,7 @@ const Features = () => {
       id="features"
       className="h-auto w-full lg:h-[100vh]"
     >
-      <h1 className="text-[#8C8C8C] text-center font-bold text-[30px] p-[5rem] lg:text-[40px] lg:text-left">
+      <h1 className="text-black text-center font-bold text-[30px] p-[5rem] md:pl-[6rem] lg:text-[40px] lg:text-left">
         Our Features
       </h1>
 
