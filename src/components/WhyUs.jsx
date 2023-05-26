@@ -1,6 +1,6 @@
 import React from "react";
 
-import Product2 from "../assets/product2.png";
+// import Product2 from "../assets/product2.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
