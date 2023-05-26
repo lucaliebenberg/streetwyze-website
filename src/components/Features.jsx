@@ -30,7 +30,7 @@ const Features = () => {
             className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
           />
           <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold lg:text-[28px] justify-center text-center mb-4">
-            Color-coded
+            Colour-coded
           </h2>
           <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
             We provide a analytical colour-coded interface of Cape Town
@@ -60,10 +60,10 @@ const Features = () => {
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
             <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold lg:text-[28px] justify-center text-center mb-4">
-              Speedometer
+              Coming Soon...
             </h2>
             <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[260px]">
-              Ability to streamline finances and gain valuable insights.
+              More features coming soon!
             </p>
           </div>
         </div>

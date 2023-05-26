@@ -25,7 +25,7 @@ const Hero = () => {
             transition={{ duration: 1 }}
             className="text-[38px] max-w-[220px] lg:max-w-[508px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]"
           >
-            We help empower you with knowledge, guidance and peace
+            Helping empower you with knowledge, guidance and peace
           </motion.h1>
           <div className="flex flex-row">
             <div className="hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">

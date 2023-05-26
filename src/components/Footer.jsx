@@ -44,13 +44,13 @@ const Footer = () => {
           >
             <AiFillFacebook size={24} className="mr-3" />
           </a>
-          {/* <a
-            href="https://www.twitter.com"
+          <a
+            href="https://twitter.com/Streetwyze2023"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillTwitterSquare size={24} className="mr-3" />
-          </a> */}
+          </a>
           <a
             href="https://instagram.com/streetwyze_?igshid=OGQ5ZDc2ODk2ZA=="
             target={"_blank"}
@@ -58,13 +58,13 @@ const Footer = () => {
           >
             <AiFillInstagram size={24} className="mr-3" />
           </a>
-          {/* <a
-            href="https://www.linkedin.com"
+          <a
+            href="https://www.linkedin.com/company/96197496/admin/?feedType=following"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillLinkedin size={24} />
-          </a> */}
+          </a>
         </div>
       </div>
     </div>

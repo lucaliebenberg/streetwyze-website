@@ -1,7 +1,5 @@
 import React, { useState, useRef } from "react";
-
-import Pricing1 from "../assets/pricing1.png";
-import Pricing2 from "../assets/pricing2.png";
+import emailjs from "@emailjs/browser";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,16 +31,16 @@ const Pricing = () => {
 
     emailjs
       .sendForm(
-        "service_m3d6aih",
-        "template_qra90cs",
+        "service_zlzn7pr",
+        "template_qaj1s1a",
         formRef.current,
-        "1MTBPSM2I49c_z_oI"
+        "bF08oyEawBfcgePGL"
       )
       .then(
         (result) => {
           console.log(result.text);
           setLoading(false);
-          alert("Thank you. we will get back to you as soon as possible.");
+          alert("Thank you. We will get back to you as soon as possible.");
 
           setForm({
             name: "",
