@@ -123,7 +123,7 @@ const Navbar = () => {
                 What We Offer
               </li>
             </a>
-            <a href="#communiry">
+            <a href="#community">
               <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Community
               </li>
