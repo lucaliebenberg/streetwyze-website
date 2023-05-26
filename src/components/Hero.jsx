@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <motion.div
       id="hero"
-      className="w-full h-full pb-[10rem] bg-[#0A0A0A] overflow-x-hidden"
+      className="w-full h-full pb-[10rem] md:pb-[14rem] bg-[#0A0A0A] overflow-x-hidden"
     >
       <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
         <motion.div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8">
