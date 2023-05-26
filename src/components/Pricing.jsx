@@ -61,11 +61,11 @@ const Pricing = () => {
 
   return (
     <div id="community" className="h-auto w-full bg-[#0A0A0A]">
-      <div>
-        <h1 className="text-[40px] font-bold text-center pt-8 text-white">
+      <div data-aos="fade-left">
+        <h1 className="text-[30px] md:text-[40px] font-bold text-center pt-8 text-white">
           Join Our Community
         </h1>
-        <p className="text-[16px] max-w-[20rem] lg:max-w-[30rem] xl:max-w-[40rem] font-light text-center pt-3 text-white m-auto">
+        <p className="text-[13px] md:text-[16px] max-w-[20rem] lg:max-w-[30rem] xl:max-w-[40rem] font-light text-center pt-6 text-white m-auto">
           Join the <span className="text-[#41B22F]">Streetwyze</span> community
           today and experience the power of safety at your fingertips.
           Navigating with confidence, staying connected, and equipping yourself
@@ -74,7 +74,10 @@ const Pricing = () => {
           mission.
         </p>
       </div>
-      <div className="flex flex-col w-[50vw] md:flex-row justify-around ml-auto mr-auto pt-[4rem] pb-8 lg:align-middle">
+      <div
+        className="flex flex-col w-[95vw] md:flex-row justify-around ml-auto mr-auto pt-[4rem] pb-8 lg:align-middle"
+        data-aos="fade-right"
+      >
         <div className="flex-[0.75] bg-white p-8 rounded-2xl mb-[5rem]">
           <h3 className="text-[2rem] text-black font-semibold">Contact.</h3>
           <form
@@ -89,7 +92,7 @@ const Pricing = () => {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="What's your good name?"
+                placeholder="Enter your full name"
                 className="bg-white py-4 px-6 placeholder:text-[#CCC] text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
               />
             </label>
@@ -102,7 +105,7 @@ const Pricing = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="What's your web address?"
+                placeholder="Enter your email address"
                 className="bg-white py-4 px-6 placeholder:text-[#CCC] text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
               />
             </label>
@@ -115,7 +118,7 @@ const Pricing = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="What you want to say?"
+                placeholder="Enter your message..."
                 className="bg-white py-4 px-6 placeholder:text-[#CCC] text-[#0A0A0A] rounded-lg border border-light-100 font-medium"
               />
             </label>

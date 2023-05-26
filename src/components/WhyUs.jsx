@@ -11,10 +11,10 @@ const WhyUs = () => {
   return (
     <div id="whyus" className=" h-auto w-full bg-[#0A0A0A] overflow-clip">
       <div className="p-[5rem] lg:p-[10rem]" data-aos="fade-right">
-        <h1 className="text-[40px] text-center font-bold text-white lg:text-left">
+        <h1 className="text-[30px] text-center font-bold text-white lg:text-left">
           About Us
         </h1>
-        <p className="text-[18px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#FDFDFD] pt-[3rem] font-light">
+        <p className="text-[16px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#FDFDFD] pt-[3rem] font-light">
           Streetwyze is a safety navigation app that aims to create a safer city
           for travellers. We understand that travelling should be a
           transformative and enriching experience, and we are dedicated to

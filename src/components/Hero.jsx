@@ -35,7 +35,7 @@ const Hero = () => {
                 transition={{ duration: 0.8 }}
                 className="w-[115px] h-[41px] rounded-[5px] bg-white mr-3 border-white border-2 text-[#41B22F]  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
               >
-                <a href="#features">Get Started</a>
+                <a href="#community">Get Started</a>
               </motion.button>
             </div>
             <div className="hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
@@ -45,11 +45,13 @@ const Hero = () => {
                 transition={{ duration: 0.5 }}
                 className="w-[115px] h-[41px] rounded-[5px] bg-[#41B22F] text-white lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
               >
-                <a href="#pricing">Learn More</a>
+                <a href="#features">Learn More</a>
               </motion.button>
             </div>
           </div>
         </motion.div>
+
+        {/* wireframe product shot goes here, with hovering animation */}
         {/* <motion.div
           initial={{ x: "500px" }}
           animate={{ x: 0 }}

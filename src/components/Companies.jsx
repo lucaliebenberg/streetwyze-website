@@ -16,10 +16,10 @@ const WhatWeOffer = () => {
   return (
     <div id="whatweoffer" className=" h-auto w-full bg-[white overflow-clip">
       <div className="p-[5rem] lg:p-[10rem]" data-aos="fade-right">
-        <h1 className="text-[40px] text-center font-bold text-black lg:text-left">
+        <h1 className="text-[30px] md:text-[40px] text-center font-bold text-black lg:text-left">
           What We Offer
         </h1>
-        <p className="text-[18px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#5E5E5E] pt-[3rem] font-light">
+        <p className="text-[16px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#5E5E5E] pt-[3rem] font-light">
           Our comprehensive safety navigation app is designed to empower you
           with knowledge, guidance, and peace of mind. With Streetwyze we offer
           a range of features that go beyond traditional navigation.

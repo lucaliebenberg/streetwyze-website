@@ -14,7 +14,7 @@ const Footer = () => {
         <p className="text-[#909090] font-semibold text-[12px] text-center">
           LIKE WHAT YOU SEE?
         </p>
-        <h1 className="text-[#41B22F] font-semibold text-[28px] text-center">
+        <h1 className="text-[#41B22F] font-semibold text-[24px] md:text-[28px] text-center">
           Have any further questions?
         </h1>
         <p className="mt-5 max-w-[300px] md:max-w-[384px] lg:max-w-[384px] text-black text-center justify-center text-[16px] ml-auto mr-auto">
@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="w-[90vw] border-stone-900"></div>
       <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
         <p className="text-[12px] pt-1 ml-4 lg:ml-10">
-          2022 &copy; Streetwyze. All right reserved.
+          2023 &copy; Streetwyze. All right reserved.
         </p>
         <div className="flex flex-row mr-4 lg:mr-8">
           <a

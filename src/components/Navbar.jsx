@@ -18,13 +18,13 @@ const Navbar = () => {
           animate={{ x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="ml-7 mt-12">
+          <h1 className="ml-7 mt-5 md:mt-12">
             <img
               src={StreetwyzeLogo}
               alt="Onesheet Logo"
               className="w-[64px] hover:cursor-pointer p-0 xl:p-0"
             />
-            STREETWYZE
+            {/* STREETWYZE */}
           </h1>
         </motion.div>
         <div className="hidden md:flex">
@@ -101,7 +101,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "w-[95vw] rounded-md bg-white text-[#56AC8B] absolute top-[50px] left-0 flex justify-center text-center ml-1 mt-2 md:hidden lg:hidden xl:hidden"
+              ? "w-[95vw] rounded-md bg-white text-[#137703] absolute top-[50px] left-0 flex justify-center text-center ml-1 mt-2 md:hidden lg:hidden xl:hidden"
               : // try 'hidden' instead of below
                 "absolute left-[-100%]"
           }
@@ -114,17 +114,17 @@ const Navbar = () => {
             </a>
 
             <a href="#aboutus">
-              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 About Us
               </li>
             </a>
             <a href="#whatweoffer">
-              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 What We Offer
               </li>
             </a>
             <a href="#communiry">
-              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Community
               </li>
             </a>
