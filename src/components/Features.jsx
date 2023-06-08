@@ -57,7 +57,7 @@ const Features = () => {
         <div>
           <div className="flex flex-col mt-14">
             <img
-              src={Feature4}
+              src={Feature5}
               alt="Feature 3 icon"
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />

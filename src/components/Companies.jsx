@@ -20,47 +20,34 @@ const WhatWeOffer = () => {
           What We Offer
         </h1>
         <p className="text-[16px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#5E5E5E] pt-[3rem] font-light">
-          At StreetWyze, we offer a revolutionary travel app designed to enhance
-          your exploration experience in the beautiful city of Cape Town. Our
-          app is centred on your safety, providing you with the tools and
-          information you need to venture into the local scene with confidence
-          and peace of mind.
-          <br /> <br />
-          Curated Recommendations: We pride ourselves on offering a refined and
-          curated selection of the best local restaurants and activities in Cape
-          Town. Whether you're seeking a hidden gem or a renowned establishment,
-          StreetWyze has you covered. Our expertly curated list ensures that you
-          experience the finest culinary delights and engaging activities the
-          city has to offer.
-          <br /> <br />
-          Safety First: Our cutting-edge technology guides you along secure
-          routes, prioritizing your safety at every turn. We understand the
-          importance of feeling secure while exploring unfamiliar territories.
-          StreetWyze provides you with reliable information on crime hotspots,
-          enabling you to make informed decisions and navigate Cape Town
-          confidently. With us, you can focus on creating memories without any
-          worries.
-          <br /> <br />
-          Unforgettable Experiences: With StreetWyze, you'll embark on a journey
-          of transformative and enriching experiences. Immerse yourself in the
-          vibrant culture, awe-inspiring landmarks, and captivating attractions
-          that Cape Town has to offer. Our app is designed to help you discover
-          hidden treasures and create memories that will last a lifetime.
-          <br /> <br />
-          Local Dining Delights: Indulge your taste buds in Cape Town's culinary
-          wonders with StreetWyze as your guide. We provide comprehensive
-          information on local restaurants, ensuring that you savour every bite
-          with confidence. Our safety ratings give you peace of mind, allowing
-          you to relish the diverse flavours and culinary masterpieces the city
-          has to offer.
-          <br /> <br />
-          Empowering Exploration: Whether you're a first-time visitor or a
-          seasoned traveller, StreetWyze empowers you to explore Cape Town
-          safely and independently. We equip you with the knowledge and insights
-          needed to navigate the city's streets, cultural hubs, and hidden gems.
-          With StreetWyze by your side, you can embrace the spirit of adventure
-          without compromising your safety.
-          <br /> <br />
+          <strong className="font-bold">Empowering Safety Insights</strong>{" "}
+          <br /> Discover valuable safety insights and make informed travel
+          decisions. Our advanced technology color-codes areas of Cape Town
+          based on safety levels, helping you navigate with ease.
+          <br />
+          <br />
+          <br />
+          <strong className="font-bold">Comprehensive Safety Tips</strong>{" "}
+          <br />
+          Stay safe while enjoying Cape Town with tailored safety tips. From
+          general guidelines to location-specific advice, our app equips you
+          with essential knowledge and precautions.
+          <br />
+          <br />
+          <br />
+          <strong className="font-bold">
+            Curated Recommendations
+          </strong> <br /> Experience the best of Cape Town's culinary scene and
+          activities. StreetWyze offers curated recommendations that meet high
+          safety standards, ensuring you discover hidden gems and popular
+          attractions with confidence.
+          <br />
+          <br />
+          <br />
+          <strong className="font-bold">User-Friendly Interface</strong> <br />
+          Enjoy a seamless experience with our user-friendly app. Whether you're
+          tech-savvy or prefer simplicity, StreetWyze is your reliable companion
+          throughout your Cape Town adventure.
         </p>
       </div>
     </div>

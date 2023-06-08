@@ -63,7 +63,7 @@ const Pricing = () => {
         <h1 className="text-[30px] md:text-[40px] font-bold text-center pt-8 text-white">
           Join Our Community
         </h1>
-        <p className="text-[13px] md:text-[16px] max-w-[20rem] lg:max-w-[30rem] xl:max-w-[40rem] font-light text-center pt-6 text-white m-auto">
+        <p className="text-[13px] md:text-[16px] max-w-[20rem] lg:max-w-[30rem] xl:max-w-[45rem] font-light text-center pt-6 text-white m-auto">
           Join us in creating a world where exploration knows no bounds and
           safety is paramount. Download{" "}
           <span className="text-[#41B22F]">StreetWyze</span> today and unlock
