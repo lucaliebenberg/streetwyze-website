@@ -3,6 +3,8 @@ import React from "react";
 import Feature1 from "../assets/Icon.svg";
 import Feature2 from "../assets/Icon-1.svg";
 import Feature3 from "../assets/Icon-2.svg";
+import Feature4 from "../assets/Icon-3.svg";
+import Feature5 from "../assets/Icon-4.svg";
 
 import { motion } from "framer-motion";
 
@@ -29,10 +31,10 @@ const Features = () => {
             alt="Feature 1 icon"
             className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
           />
-          <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold lg:text-[28px] justify-center text-center mb-4">
+          <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
             Colour-coded
           </h2>
-          <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+          <p className="text-[13px] md:text-[16px] md:text-center text-[#ABABAB] justify-center text-center max-w-[277px]">
             We provide a analytical colour-coded interface of Cape Town
           </p>
         </div>
@@ -44,10 +46,10 @@ const Features = () => {
               alt="Feature 2 icon"
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
-            <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold lg:text-[28px] justify-center text-center mb-4">
+            <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
               Location Saving
             </h2>
-            <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[277px]">
               Choose your own favourite locations and save them with ease
             </p>
           </div>
@@ -55,15 +57,30 @@ const Features = () => {
         <div>
           <div className="flex flex-col mt-14">
             <img
-              src={Feature3}
+              src={Feature4}
               alt="Feature 3 icon"
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
-            <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold lg:text-[28px] justify-center text-center mb-4">
-              Coming Soon...
+            <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
+              Information on Restaurants
             </h2>
-            <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[260px]">
-              More features coming soon!
+            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[280px]">
+              Discover culinary wonders with curated restaurant recommendations
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className="flex flex-col mt-14">
+            <img
+              src={Feature5}
+              alt="Feature 3 icon"
+              className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
+            />
+            <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
+              Information on Activities
+            </h2>
+            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[260px]">
+              Explore activities with StreetWyze's reliable information
             </p>
           </div>
         </div>

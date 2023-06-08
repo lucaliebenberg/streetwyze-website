@@ -15,24 +15,41 @@ const WhyUs = () => {
           About Us
         </h1>
         <p className="text-[16px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#FDFDFD] pt-[3rem] font-light">
-          Streetwyze is a safety navigation app that aims to create a safer city
-          for travellers. We understand that travelling should be a
-          transformative and enriching experience, and we are dedicated to
-          ensuring that our users can explore with confidence and peace of mind.
+          <strong>Empowering Safety Insights:</strong> At StreetWyze, we believe
+          that everyone deserves to explore Cape Town with confidence and peace
+          of mind. Our app is designed to provide you with valuable safety
+          insights, empowering you to make informed decisions about your
+          travels. We utilize advanced technology to colour-code different areas
+          of Cape Town based on their safety levels, allowing you to easily
+          identify and navigate through the city's neighbourhoods.
           <br />
           <br />
-          With our cutting-edge technology, Streetwyze guides users through
-          secure routes, prioritising safety every step of the way. By providing
-          reliable information on crime hotspots, our app allows you to arrive
-          at your destination on time and in one piece.
+          <strong>Comprehensive Safety Tips:</strong> Safety is not just about
+          knowing which areas to avoid; it's also about being equipped with the
+          right knowledge and precautions. StreetWyze provides you with a wealth
+          of comprehensive safety tips, tailored specifically for travellers
+          exploring Cape Town. From general safety guidelines to specific advice
+          for different locations and activities, our app equips you with the
+          necessary information to stay safe while enjoying all that the city
+          has to offer.
           <br />
           <br />
-          Whether you are a first-time visitor or a seasoned explorer,
-          Streetwyze is your trusted companion for a safe and unforgettable
-          journey. Use this app during your daily driving, outdoor adventures,
-          or overseas travel. Join us in creating a safer world where everyone
-          can move freely, feeling protected and empowered. Download Streetwyze
-          today and embark on your next adventure with confidence.
+          <strong>Curated Recommendations:</strong> Cape Town is a vibrant city
+          known for its diverse culinary scene and exciting activities.
+          StreetWyze goes beyond safety and serves as your concierge, offering
+          carefully curated recommendations for restaurants and activities that
+          meet our high safety standards. Discover hidden gems, popular
+          attractions, and local favourites, all with an assurance of safety and
+          quality.
+          <br />
+          <br />
+          <strong>User-Friendly Interface:</strong> We believe that technology
+          should be accessible and easy to use for everyone. StreetWyze features
+          a user-friendly interface that allows you to navigate the app
+          effortlessly. Whether you're a tech-savvy explorer or someone who
+          prefers simplicity, our app ensures a seamless experience for all
+          users, making it a reliable companion throughout your Cape Town
+          adventure.
           <br />
           <br />
         </p>

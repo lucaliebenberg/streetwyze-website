@@ -64,12 +64,12 @@ const Pricing = () => {
           Join Our Community
         </h1>
         <p className="text-[13px] md:text-[16px] max-w-[20rem] lg:max-w-[30rem] xl:max-w-[40rem] font-light text-center pt-6 text-white m-auto">
-          Join the <span className="text-[#41B22F]">Streetwyze</span> community
-          today and experience the power of safety at your fingertips.
-          Navigating with confidence, staying connected, and equipping yourself
-          with the right tools – all under the name{" "}
-          <span className="text-[#41B22F]">Streetwyze</span>. Your safety is our
-          mission.
+          Join us in creating a world where exploration knows no bounds and
+          safety is paramount. Download{" "}
+          <span className="text-[#41B22F]">StreetWyze</span> today and unlock
+          the wonders of Cape Town with confidence. Let us be your trusted
+          companion on this remarkable journey of safe exploration. Your next
+          unforgettable adventure awaits!
         </p>
       </div>
       <div
