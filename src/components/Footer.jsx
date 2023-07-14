@@ -7,6 +7,8 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 
+import { TbWriting } from "react-icons/tb";
+
 const Footer = () => {
   return (
     <div id="footer" className="w-full h-auto bg-white" data-aos="fade-in">
@@ -64,6 +66,13 @@ const Footer = () => {
             className="text-[#CCC] font-semibold hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillLinkedin size={24} />
+          </a>
+          <a
+            href="https://streetwyze.blog"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold pl-3 hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+          >
+            <TbWriting size={24} />
           </a>
         </div>
       </div>
