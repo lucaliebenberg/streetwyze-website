@@ -6,7 +6,9 @@ function Blog() {
       <div className="pb-5">
         <img src="https://picsum.photos/200/300" alt="streetwyze blog" />
         <a href="https:x.com/" target="_blank">
-          <button>Got to store</button>
+          <button className="bg-[#41B22F] text-white p-2 ml-auto mr-auto rounded-md mt-4 w-[38vw]">
+            View blog
+          </button>
         </a>
       </div>
     </div>
