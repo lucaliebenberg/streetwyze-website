@@ -5,7 +5,7 @@ function Blog() {
     <div className="bg-black min-h-[45vh] pt-8 flex justify-center align-middle">
       <div className="pb-5">
         <img src="https://picsum.photos/200/300" alt="streetwyze blog" />
-        <a href="https:x.com/">
+        <a href="https:x.com/" target="_blank">
           <button>Got to store</button>
         </a>
       </div>
