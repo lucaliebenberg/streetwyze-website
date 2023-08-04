@@ -127,7 +127,7 @@ const Navbar = () => {
           }
         >
           <ul>
-            <a href="/">
+            <a href="/home">
               <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Home
               </li>
