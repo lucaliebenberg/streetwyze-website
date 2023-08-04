@@ -30,17 +30,17 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
             <motion.a
-              href="#features"
+              href="/home"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.6 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Features
+                Home
               </li>
             </motion.a>
             <motion.a
-              href="#aboutus"
+              href="/about"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.7 }}
@@ -50,30 +50,50 @@ const Navbar = () => {
               </li>
             </motion.a>
             <motion.a
-              href="#whatweoffer"
+              href="/app"
+              initial={{ x: "500px" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.7 }}
+            >
+              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+                App
+              </li>
+            </motion.a>
+            <motion.a
+              href="/store"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.8 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                What We Offer
+                Store
               </li>
             </motion.a>
             <motion.a
-              href="#community"
+              href="/blog"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.9 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-                Community
+                Blog
               </li>
             </motion.a>
             <motion.a
-              href="#footer"
+              href="/support"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
+            >
+              <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
+                Support
+              </li>
+            </motion.a>
+            <motion.a
+              href="/contact"
+              initial={{ x: "500px" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 1.1 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#41B22F] hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
                 Contact
@@ -107,29 +127,34 @@ const Navbar = () => {
           }
         >
           <ul>
-            <a href="#features">
+            <a href="/">
               <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Features
+                Home
               </li>
             </a>
 
-            <a href="#aboutus">
+            <a href="/about">
               <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 About Us
               </li>
             </a>
-            <a href="#whatweoffer">
+            <a href="/store">
               <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                What We Offer
+                Store
               </li>
             </a>
-            <a href="#community">
+            <a href="/blog">
               <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
-                Community
+                Blog
               </li>
             </a>
-            <a href="#footer">
-              <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+            <a href="/support">
+              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+                Support
+              </li>
+            </a>
+            <a href="/contact">
+              <li className="text-2xl pt-8 pb-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Contact
               </li>
             </a>
