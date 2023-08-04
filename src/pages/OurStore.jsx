@@ -3,9 +3,9 @@ import React from "react";
 const OurStore = () => {
   return (
     <>
-      <div className="mt-[5rem] bg-black">
-        <div className="mt-[5rem]">
-          <h1>T-Shirts and Tote bags</h1>
+      <div className="pt-[5rem] bg-black">
+        <div className="text-white">
+          <h1 className="text-[2rem] font-bold">T-Shirts and Tote bags</h1>
           <p>
             Indulge in a touch of Cape Town's essence by owning our proudly
             crafted T-shirts. These wearable treasures are the fruit of a
@@ -31,11 +31,13 @@ const OurStore = () => {
             and wholeheartedly welcome you to the growing StreetWyze team, where
             your involvement leaves an indelible mark.
           </p>
-          <img src="https://picsum.photos/200/300" alt="streetwyze image" />
+          <div className="flex flex-col md:flex-row justify-center align-middle p-4">
+            <img src="https://picsum.photos/200/300" alt="streetwyze image" />
+          </div>
         </div>
       </div>
       <div className="bg-white text-black mt-[1rem]">
-        <h1>Beaded products</h1>
+        <h1 className="text-[2rem] font-bold">Beaded products</h1>
         <p>
           We've joined forces with a talented group of South African artisans
           who specialize in crafting stunning beaded products. From exquisite
@@ -53,9 +55,23 @@ const OurStore = () => {
           impact. Join us in this journey to discover unique artistry and
           contribute to the growth of these artisans within a global community.
         </p>
-        <img src="https://picsum.photos/200/300" alt="streetwyze image" />
-        <img src="https://picsum.photos/200/300" alt="streetwyze image" />
-        <img src="https://picsum.photos/200/300" alt="streetwyze image" />
+        <div className="flex flex-col md:flex-row justify-center align-middle p-4">
+          <img
+            src="https://picsum.photos/200/300"
+            alt="streetwyze image"
+            className="mt-4"
+          />
+          <img
+            src="https://picsum.photos/200/300"
+            alt="streetwyze image"
+            className="mt-4"
+          />
+          <img
+            src="https://picsum.photos/200/300"
+            alt="streetwyze image"
+            className="mt-4"
+          />
+        </div>
       </div>
     </>
   );
