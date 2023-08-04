@@ -132,10 +132,14 @@ const Navbar = () => {
                 Home
               </li>
             </a>
-
             <a href="/about">
               <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 About Us
+              </li>
+            </a>
+            <a href="/app">
+              <li className="text-2xl pt-8 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
+                App
               </li>
             </a>
             <a href="/store">
