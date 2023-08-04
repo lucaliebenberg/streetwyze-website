@@ -8,7 +8,7 @@ function ContactUs() {
           <h1 className="text-[1.6rem] font-bold">Instagram</h1>
           <a href="https://www.instagram.com/" target="_blank">
             <button className="bg-[#41B22F] p-1 rounded-md mt-4 text-sm">
-              Go to Facebook
+              Go to Instagram
             </button>
           </a>
         </div>
