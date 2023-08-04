@@ -12,7 +12,7 @@ import { TbWriting } from "react-icons/tb";
 const Footer = () => {
   return (
     <div id="footer" className="w-full h-auto bg-white" data-aos="fade-in">
-      <div className="flex flex-col justify-center mt-[5rem]">
+      <div className="flex flex-col justify-center mt-[2rem]">
         <p className="text-[#909090] font-semibold text-[12px] text-center">
           LIKE WHAT YOU SEE?
         </p>
@@ -34,7 +34,7 @@ const Footer = () => {
         </button>
       </div>
       <div className="w-[90vw] border-stone-900"></div>
-      <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
+      <div className="flex flex-row justify-between align-middle pt-[6rem] pb-2 text-[#CCC]">
         <p className="text-[12px] pt-1 ml-4 lg:ml-10">
           2023 &copy; Streetwyze. All right reserved.
         </p>
