@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
             <motion.a
-              href="/home"
+              href="/"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.6 }}
@@ -127,7 +127,7 @@ const Navbar = () => {
           }
         >
           <ul>
-            <a href="/home">
+            <a href="/">
               <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D] hover:transition-all hover:duration-300 hover:ease-in-out">
                 Home
               </li>
