@@ -4,7 +4,7 @@ const Support = () => {
   return (
     <div className="bg-black w-full h-auto text-white p-4 pt-[2rem]">
       <div className=" ml-auto mr-auto">
-        <h1 className="text-lg md:text-[2rem] font-bold p-8 md:p-16 mb:pb-0">
+        <h1 className="text-[1.4rem] md:text-[2rem] font-bold p-4 md:p-16 mb:pb-0">
           Support Us
         </h1>
         <p className="w-full p-4 text-[1.2rem] md:p-16 md:pb-16 md:pt-0">
