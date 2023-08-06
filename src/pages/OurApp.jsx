@@ -8,6 +8,8 @@ function OurApp() {
           src="https://picsum.photos/500/300"
           alt="streetwyze image"
           className="rounded-sm"
+          width="500"
+          height="300"
         />
       </div>
       <div className="bg-white text-back p-16">
@@ -77,11 +79,13 @@ function OurApp() {
           src="https://picsum.photos/500/300"
           alt="streetwyze image"
           className="rounded-sm"
+          width="500"
         />
         <img
           src="https://picsum.photos/500/300"
           alt="streetwyze image"
           className="rounded-sm"
+          height="300"
         />
       </div>
       <div className="h-auto w-full bg-white text-black">
@@ -93,6 +97,8 @@ function OurApp() {
             src="https://picsum.photos/500/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="500"
+            height="300"
           />
         </div>
         <p className=" p-12 md:text-lg">
@@ -108,16 +114,22 @@ function OurApp() {
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="300"
+            height="300"
           />
           <img
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="300"
+            height="300"
           />
           <img
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="300"
+            height="300"
           />
         </div>
       </div>
@@ -130,6 +142,8 @@ function OurApp() {
             src="https://picsum.photos/500/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="500"
+            height="300"
           />
         </div>
         <p className="pt-10 p-5 md:text-lg">
@@ -145,16 +159,22 @@ function OurApp() {
             src="https://picsum.photos/320/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="320"
+            height="300"
           />
           <img
             src="https://picsum.photos/320/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="320"
+            height="300"
           />
           <img
             src="https://picsum.photos/320/300"
             alt="streetwyze image"
             className="rounded-sm"
+            width="320"
+            height="300"
           />
         </div>
       </div>

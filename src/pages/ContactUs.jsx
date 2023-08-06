@@ -25,8 +25,11 @@ function ContactUs() {
           </h1>
           <img src={InstaLogo} alt="Instagram logo" height="250" width="250" />
         </div>
-        <a href="https://www.linkedin.com/" target="_blank">
-          <button className="bg-[#41B22F] p-1 rounded-md mt-4 text-lg w-full h-[4vh] md:h-[5vh]">
+        <a
+          href="https://www.instagram.com/streetwyze_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+          target="_blank"
+        >
+          <button className="bg-[#a949a9] p-1 rounded-md mt-4 text-lg w-full h-[4vh] md:h-[5vh]">
             Go to Instagram
           </button>
         </a>
@@ -44,8 +47,8 @@ function ContactUs() {
             width="250"
           />
         </div>
-        <a href="https://www.linkedin.com/" target="_blank">
-          <button className="bg-[#41B22F] p-1 rounded-md mt-4 text-lg w-full h-[4vh] md:h-[5vh]">
+        <a href="https://www.linkedin.com/company/street-wyze/" target="_blank">
+          <button className="bg-[#085B8C] p-1 rounded-md mt-4 text-lg w-full h-[4vh] md:h-[5vh]">
             Go to LinkedIn
           </button>
         </a>

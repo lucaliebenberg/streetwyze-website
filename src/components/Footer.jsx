@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { FaStore } from "react-icons/fa";
 
 import { TbWriting } from "react-icons/tb";
 
