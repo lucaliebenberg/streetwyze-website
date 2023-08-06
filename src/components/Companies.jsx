@@ -19,7 +19,7 @@ const WhatWeOffer = () => {
         <h1 className="text-[30px] md:text-[40px] text-center font-bold text-black lg:text-left">
           What We Offer
         </h1>
-        <p className="text-[16px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#5E5E5E] pt-[3rem] font-light">
+        <p className="text-[16px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#5E5E5E] pt-[3rem] font-light mr-auto ml-auto">
           <strong className="font-bold">Empowering Safety Insights</strong>{" "}
           <br /> Discover valuable safety insights and make informed travel
           decisions. Our advanced technology color-codes areas of Cape Town

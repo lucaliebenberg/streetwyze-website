@@ -34,7 +34,7 @@ const Features = () => {
           <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
             Colour-coded
           </h2>
-          <p className="text-[13px] md:text-[16px] md:text-center text-[#ABABAB] justify-center text-center max-w-[277px]">
+          <p className="text-[13px] md:text-[16px] md:text-center text-[#ABABAB] justify-center text-center max-w-[277px] mr-auto ml-auto">
             We provide a analytical colour-coded interface of Cape Town
           </p>
         </div>
@@ -49,7 +49,7 @@ const Features = () => {
             <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
               Location Saving
             </h2>
-            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[277px]  mr-auto ml-auto">
               Choose your own favourite locations and save them with ease
             </p>
           </div>
@@ -64,7 +64,7 @@ const Features = () => {
             <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
               Information on Restaurants
             </h2>
-            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[280px]">
+            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[280px] mr-auto ml-auto">
               Discover culinary wonders with curated restaurant recommendations
             </p>
           </div>
@@ -79,7 +79,7 @@ const Features = () => {
             <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
               Information on Activities
             </h2>
-            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[260px]">
+            <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[260px] mr-auto ml-auto">
               Explore activities with StreetWyze's reliable information
             </p>
           </div>
