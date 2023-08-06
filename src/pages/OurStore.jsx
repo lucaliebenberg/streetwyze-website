@@ -3,7 +3,7 @@ import React from "react";
 const OurStore = () => {
   return (
     <>
-      <div className="pt-[5rem] bg-black">
+      <div className="pt-[0.75rem] bg-black">
         <div className="text-white p-10 md:p-[6rem]">
           <h1 className="text-[2rem] font-bold">T-Shirts and Tote bags</h1>
           <p className="mt-[2rem] md:text-lg">
@@ -35,7 +35,7 @@ const OurStore = () => {
             <img
               src="https://picsum.photos/500/300"
               alt="streetwyze image"
-              className="rounded-sm"
+              className="rounded-sm p-2"
             />
           </div>
         </div>
