@@ -4,9 +4,9 @@ const OurStore = () => {
   return (
     <>
       <div className="pt-[5rem] bg-black">
-        <div className="text-white">
+        <div className="text-white p-10 md:p-[6rem]">
           <h1 className="text-[2rem] font-bold">T-Shirts and Tote bags</h1>
-          <p>
+          <p className="mt-[2rem] md:text-lg">
             Indulge in a touch of Cape Town's essence by owning our proudly
             crafted T-shirts. These wearable treasures are the fruit of a
             collaborative effort with a local printing and manufacturing
@@ -15,7 +15,7 @@ const OurStore = () => {
             and creativity, with a promise of more remarkable items on the
             horizon.
           </p>
-          <p>
+          <p className="mt-[2rem] md:text-lg">
             The significance of your purchase extends beyond the T-shirt itself.
             The proceeds generated from our merchandise sales serve as a vital
             lifeline, fuelling the evolution of our application's development
@@ -23,7 +23,7 @@ const OurStore = () => {
             directly contributes to the realization of our vision, propelling us
             closer to becoming the leading Tourism Safety Application.
           </p>
-          <p>
+          <p className="mt-[2rem] md:text-lg">
             To secure one of these exquisite T-shirts and join us on this
             journey, a simple click will transport you to our dedicated
             e-commerce store. We eagerly anticipate your engagement and feedback
@@ -31,14 +31,18 @@ const OurStore = () => {
             and wholeheartedly welcome you to the growing StreetWyze team, where
             your involvement leaves an indelible mark.
           </p>
-          <div className="flex flex-col md:flex-row justify-center align-middle p-4">
-            <img src="https://picsum.photos/200/300" alt="streetwyze image" />
+          <div className="flex flex-col md:flex-row justify-center align-middle p-4 mt-[2rem] mb-[2rem]">
+            <img
+              src="https://picsum.photos/500/300"
+              alt="streetwyze image"
+              className="rounded-sm"
+            />
           </div>
         </div>
       </div>
-      <div className="bg-white text-black mt-[1rem]">
+      <div className="bg-white text-black mt-[1rem] p-10 md:p-[6rem]">
         <h1 className="text-[2rem] font-bold">Beaded products</h1>
-        <p>
+        <p className="mt-[2rem] md:text-lg">
           We've joined forces with a talented group of South African artisans
           who specialize in crafting stunning beaded products. From exquisite
           proteas to intricate depictions of the "Big Five" and elegant key
@@ -48,28 +52,28 @@ const OurStore = () => {
           customers, while also supporting local talent and promoting cultural
           heritage.
         </p>
-        <p>
+        <p className="mt-[2rem] md:text-lg">
           Our collaboration is a testament to our commitment to local enterprise
           and cultural preservation. Through this partnership, we aim to
           transcend boundaries, celebrate creativity, and create a meaningful
           impact. Join us in this journey to discover unique artistry and
           contribute to the growth of these artisans within a global community.
         </p>
-        <div className="flex flex-col md:flex-row justify-center align-middle p-4">
+        <div className="flex flex-col md:flex-row justify-center align-middle p-4 gap-16">
           <img
-            src="https://picsum.photos/200/300"
+            src="https://picsum.photos/300/300"
             alt="streetwyze image"
-            className="mt-4"
+            className="mt-4 rounded-sm"
           />
           <img
-            src="https://picsum.photos/200/300"
+            src="https://picsum.photos/300/300"
             alt="streetwyze image"
-            className="mt-4"
+            className="mt-4 rounded-sm"
           />
           <img
-            src="https://picsum.photos/200/300"
+            src="https://picsum.photos/300/300"
             alt="streetwyze image"
-            className="mt-4"
+            className="mt-4 rounded-sm"
           />
         </div>
       </div>
