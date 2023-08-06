@@ -67,9 +67,9 @@ const Pricing = () => {
           Join us in creating a world where exploration knows no bounds and
           safety is paramount. Download{" "}
           <span className="text-[#41B22F]">StreetWyze</span> today and unlock
-          the wonders of Cape Town with confidence. Let us be your trusted
-          companion on this remarkable journey of safe exploration. Your next
-          unforgettable adventure awaits!
+          the wonders of Cape Town with confidence.
+          <br /> Let us be your trusted companion on this remarkable journey of
+          safe exploration. Your next unforgettable adventure awaits!
         </p>
       </div>
       <div
