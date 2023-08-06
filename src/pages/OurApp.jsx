@@ -80,11 +80,13 @@ function OurApp() {
           alt="streetwyze image"
           className="rounded-sm"
           width="500"
+          height="300"
         />
         <img
           src="https://picsum.photos/500/300"
           alt="streetwyze image"
           className="rounded-sm"
+          width="500"
           height="300"
         />
       </div>
