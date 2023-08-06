@@ -75,6 +75,13 @@ const Footer = () => {
           >
             <TbWriting size={24} />
           </a>
+          <a
+            href="https://1eb206.myshopify.com/"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold pl-3 hover:text-[#41B22F] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+          >
+            <FaStore size={24} />
+          </a>
         </div>
       </div>
     </div>
