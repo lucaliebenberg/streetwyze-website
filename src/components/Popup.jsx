@@ -60,7 +60,9 @@ const Popup = ({ onClose }) => {
       >
         <div className="flex-[0.75] bg-white p-8 rounded-2xl mb-[5rem]">
           <div className="flex flex-row justify-between align-middle p-4">
-            <h3 className="text-[2rem] text-black font-semibold">Contact.</h3>
+            <h3 className="text-[2rem] text-black font-semibold">
+              Join Our Community
+            </h3>
             <button onClick={onClose}>
               <GrClose color="black" size={24} onClick={close} />
             </button>
