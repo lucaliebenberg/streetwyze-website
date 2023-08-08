@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
+import emailjs from "emailjs-com";
 import { GrClose } from "react-icons/gr";
 
 const Popup = ({ onClose }) => {
@@ -42,6 +43,7 @@ const Popup = ({ onClose }) => {
             email: "",
             message: "",
           });
+          onClose();
         },
         (error) => {
           setLoading(false);

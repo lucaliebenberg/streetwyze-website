@@ -1,13 +1,17 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
+// import animation libaries
 import AOS from "aos";
 import "aos/dist/aos.css";
-// initialize AOS
+import { motion, useAnimation } from "framer-motion";
+
+// initialize AOS lib
 AOS.init();
 
 const Pricing = () => {
+  const controls = useAnimation();
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -58,6 +62,13 @@ const Pricing = () => {
       );
   };
 
+  useEffect(() => {
+    controls.start({
+      y: [0, 20, 0],
+      transition: { duration: 2.5, repeat: Infinity },
+    });
+  }, []);
+
   return (
     <>
       <div id="community" className="h-auto w-full bg-[#0A0A0A] pb-[2rem]">
@@ -65,13 +76,15 @@ const Pricing = () => {
           <h1 className="text-[30px] md:text-[40px] font-bold text-center pt-8 text-white">
             Join Our Community
           </h1>
-          <p className="text-[13px] md:text-[16px] max-w-[24rem] md:max-w-[42rem] xl:max-w-[45rem] font-light text-center pt-6 text-white m-auto">
+          <p className="text-[13px] md:text-[16px] max-w-[34rem] md:max-w-[42rem] xl:max-w-[45rem] font-light text-center pt-6 text-white m-auto">
             Join us in creating a world where exploration knows no bounds and
             safety is paramount. Download{" "}
             <span className="text-[#41B22F]">StreetWyze</span> today and unlock
             the wonders of Cape Town with confidence.
-            <br /> Let us be your trusted companion on this remarkable journey
-            of safe exploration. Your next unforgettable adventure awaits!
+            <br />
+            <br />
+            Let us be your trusted companion on this remarkable journey of safe
+            exploration. Your next unforgettable adventure awaits!
           </p>
         </div>
         <div
@@ -138,9 +151,12 @@ const Pricing = () => {
         </div>
         <div className="flex flex-row justify-center align-middle bg-[#0A0A0A]">
           <h1 className="ml-auto mr-auto text-[2.4rem] text-white font-bold mt-[8rem]">
-            <div className="flex flex-row justify-center align-middle ml-auto mr-auto mb-5">
+            <motion.div
+              className="flex flex-row justify-center align-middle ml-auto mr-auto mb-5"
+              animate={controls}
+            >
               <AiOutlineArrowDown color="white" size={48} />
-            </div>
+            </motion.div>
             Get help from our chatbot!
           </h1>
         </div>

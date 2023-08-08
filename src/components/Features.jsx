@@ -1,5 +1,9 @@
 import React from "react";
 
+// import icons
+import { GrRestaurant } from "react-icons/gr";
+
+// import icons
 import Feature1 from "../assets/Icon.svg";
 import Feature2 from "../assets/Icon-1.svg";
 import Feature3 from "../assets/Icon-2.svg";
@@ -47,7 +51,7 @@ const Features = () => {
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
             <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
-              Location Saving
+              StreetWyze scores
             </h2>
             <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[277px]  mr-auto ml-auto">
               Choose your own favourite locations and save them with ease
