@@ -62,7 +62,7 @@ const Features = () => {
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
             <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
-              Information on Restaurants
+              Restaurant recommendations
             </h2>
             <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[280px] mr-auto ml-auto">
               Discover culinary wonders with curated restaurant recommendations
@@ -77,7 +77,7 @@ const Features = () => {
               className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
             <h2 className="text-[20px] md:text-[22px] text-[#137703] font-bold justify-center text-center mb-4">
-              Information on Activities
+              Activities recommendations
             </h2>
             <p className="text-[13px] md:text-[16px] text-[#ABABAB] justify-center text-center max-w-[260px] mr-auto ml-auto">
               Explore activities with StreetWyze's reliable information
