@@ -14,9 +14,9 @@ const Home = () => {
   const [showPopup, setShowPopup] = useState(true);
 
   useEffect(() => {
-    // Disable scrolling when the popup is openA
+    // Disable scrolling when the popup is open
     if (showPopup) {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "visible";
     }

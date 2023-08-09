@@ -55,25 +55,25 @@ const Popup = ({ onClose }) => {
   };
 
   return (
-    <div id="" className="h-auto w-full bg-[#0A0A0A] pb-[2rem]">
+    <div id="" className="h-full w-full bg-[#0A0A0A] pb-[2rem]">
       <div
         className="flex flex-col w-[95vw] md:flex-row justify-around ml-auto mr-auto pt-[4rem] pb-8 lg:align-middle"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
-        <div className="flex-[0.75] bg-white p-8 rounded-2xl mb-[5rem]">
-          <div className="flex flex-row justify-between align-middle p-4">
+        <div className="flex-[0.75] bg-white p-8 rounded-2xl mb-[2.5rem] h-[25%]">
+          <div className="flex flex-row justify-between align-middle p-1">
             <h3 className="text-[2rem] text-black font-semibold">
               Join Our Community
             </h3>
             <button onClick={onClose}>
-              <GrClose color="black" size={24} onClick={close} />
+              <GrClose color="black" size={24} />
             </button>
           </div>
 
           <form
             ref={formRef}
             onSubmit={sendEmail}
-            className="mt-12 flex flex-col gap-8"
+            className="mt-2 flex flex-col gap-4"
           >
             <label className="flex flex-col">
               <span className="text-[#0A0A0A] font-medium mb-4">Your Name</span>
