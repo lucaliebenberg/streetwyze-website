@@ -30,7 +30,7 @@ function OurApp() {
           height="600"
         />
       </div>
-      <div className="bg-white text-back p-16">
+      <div className="bg-white text-back p-16" data-aos="fade-up">
         <p className="text-md md:text-lg">
           Travel with peace of mind, knowing you have TravelWyze by your side.
           Our comprehensive safety education equips you with essential tips for
@@ -92,7 +92,10 @@ function OurApp() {
           city!
         </p>
       </div>
-      <div className="bg-black h-auto w-full p-5 flex flex-col md:flex-row justify-around align-middle gap-12">
+      <div
+        className="bg-black h-auto w-full p-5 flex flex-col md:flex-row justify-around align-middle gap-12"
+        data-aos="fade-up"
+      >
         <img
           src={pic1}
           alt="streetwyze image"
@@ -108,7 +111,7 @@ function OurApp() {
           height="300"
         />
       </div>
-      <div className="h-auto w-full bg-white text-black">
+      <div className="h-auto w-full bg-white text-black" data-aos="fade-up">
         <h1 className="text-[1.6rem] md:text-[2rem] md:pt-8 font-bold p-12">
           EatWyze: Savour the Flavour, Support Local
         </h1>
@@ -129,7 +132,10 @@ function OurApp() {
           every gastronomic journey. Support the community and indulge in
           delectable delights—the taste of safety is just a click away.
         </p>
-        <div className="flex flex-col md:flex-row justify-around align-middle pt-[3rem] pb-[4rem] gap-16 p-8">
+        <div
+          className="flex flex-col md:flex-row justify-around align-middle pt-[3rem] pb-[4rem] gap-16 p-8"
+          data-aos="fade-up"
+        >
           <img
             src={slide1}
             alt="streetwyze image"
@@ -153,10 +159,10 @@ function OurApp() {
           /> */}
         </div>
       </div>
-      <div className="bg-black w-full h-auto text-white p-4">
-        <h className="text-[1.2rem] md:text-[2rem] md:pt-8 font-bold p-8">
+      <div className="bg-black w-full h-auto text-white p-4" data-aos="fade-up">
+        <h1 className="text-[1.2rem] md:text-[2rem] md:pt-8 font-bold p-8">
           Playwyze: Unleash Adventure with Safety
-        </h>
+        </h1>
         <div className="pt-[3rem] flex flex-col md:flex-row justify-around align-middle p-8">
           <img
             src={pic3}

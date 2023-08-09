@@ -42,7 +42,10 @@ const OurStore = () => {
             and wholeheartedly welcome you to the growing StreetWyze team, where
             your involvement leaves an indelible mark.
           </p>
-          <div className="flex flex-col md:flex-row justify-center align-middle p-4 mt-[2rem]">
+          <div
+            className="flex flex-col md:flex-row justify-center align-middle p-4 mt-[2rem]"
+            data-aos="fade-up"
+          >
             <img
               src={shopItems}
               alt="streetwyze image"
@@ -53,7 +56,7 @@ const OurStore = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white text-black p-10 md:p-[6rem]">
+      <div className="bg-white text-black p-10 md:p-[6rem]" data-aos="fade-up">
         <h1 className="text-[2rem] font-bold">Beaded products</h1>
         <p className="mt-[2rem] md:text-lg">
           We've joined forces with a talented group of South African artisans
@@ -72,7 +75,10 @@ const OurStore = () => {
           impact. Join us in this journey to discover unique artistry and
           contribute to the growth of these artisans within a global community.
         </p>
-        <div className="flex flex-col md:flex-row justify-center align-middle p-4 gap-16 mt-12">
+        <div
+          className="flex flex-col md:flex-row justify-center align-middle p-4 gap-16 mt-12"
+          data-aos="fade-up"
+        >
           <img
             src={bead1}
             alt="streetwyze image"

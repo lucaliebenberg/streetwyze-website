@@ -16,7 +16,7 @@ function ContactUs() {
       className="bg-black text-white p-4 flex flex-col md:flex-row justify-center align-middle pt-[4rem] pb-[4rem]"
       data-aos="fade-up"
     >
-      <div className="mr-auto ml-auto text-center">
+      <div className="mr-auto ml-auto text-center" data-aos="fade-right">
         <div className="flex flex-col mt-[2rem] mb-[2rem]">
           <h1 className="text-[1.6rem] md:text-[2rem] font-bold mb-3">
             Instagram
@@ -33,7 +33,7 @@ function ContactUs() {
         </a>
       </div>
 
-      <div className="mr-auto ml-auto text-center">
+      <div className="mr-auto ml-auto text-center" data-aos="fade-left">
         <div className="flex flex-col mt-[2rem] mb-[2rem]">
           <h1 className="text-[1.6rem] md:text-[2rem] font-bold mb-3">
             Linked In
