@@ -62,7 +62,7 @@ const OurStore = () => {
           impact. Join us in this journey to discover unique artistry and
           contribute to the growth of these artisans within a global community.
         </p>
-        <div className="flex flex-col md:flex-row justify-center align-middle p-4 gap-16">
+        {/* <div className="flex flex-col md:flex-row justify-center align-middle p-4 gap-16">
           <img
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
@@ -78,7 +78,7 @@ const OurStore = () => {
             alt="streetwyze image"
             className="mt-4 rounded-md"
           />
-        </div>
+        </div> */}
       </div>
     </>
   );

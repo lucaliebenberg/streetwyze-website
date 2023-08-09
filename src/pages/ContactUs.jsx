@@ -12,7 +12,7 @@ function ContactUs() {
           <h1 className="text-[1.6rem] md:text-[2rem] font-bold mb-3">
             Instagram
           </h1>
-          <img src={InstaLogo} alt="Instagram logo" height="250" width="250" />
+          <img src={InstaLogo} alt="Instagram logo" height="180" width="180" />
         </div>
         <a
           href="https://www.instagram.com/streetwyze_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
@@ -32,8 +32,8 @@ function ContactUs() {
           <img
             src={LinkedInLogo}
             alt="LinkedIn logo"
-            height="250"
-            width="250"
+            height="180"
+            width="180"
           />
         </div>
         <a href="https://www.linkedin.com/company/street-wyze/" target="_blank">
