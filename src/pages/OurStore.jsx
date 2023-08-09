@@ -1,5 +1,9 @@
 import React from "react";
 import shopItems from "../assets/store/shop-items.jpg";
+// import bead1 from "../assets/store/CITY-STREETWYZE-1.jpg";
+import bead1 from "../assets/store/city1.jpg";
+import bead2 from "../assets/store/city2.jpg";
+import bead3 from "../assets/store/city3.jpg";
 
 const OurStore = () => {
   return (
@@ -62,23 +66,29 @@ const OurStore = () => {
           impact. Join us in this journey to discover unique artistry and
           contribute to the growth of these artisans within a global community.
         </p>
-        {/* <div className="flex flex-col md:flex-row justify-center align-middle p-4 gap-16">
+        <div className="flex flex-col md:flex-row justify-center align-middle p-4 gap-16 mt-12">
           <img
-            src="https://picsum.photos/300/300"
+            src={bead1}
             alt="streetwyze image"
             className="mt-4 rounded-md"
+            height="300"
+            width="360"
           />
           <img
-            src="https://picsum.photos/300/300"
+            src={bead2}
             alt="streetwyze image"
             className="mt-4 rounded-md"
+            height="300"
+            width="360"
           />
           <img
-            src="https://picsum.photos/300/300"
+            src={bead3}
             alt="streetwyze image"
             className="mt-4 rounded-md"
+            height="300"
+            width="360"
           />
-        </div> */}
+        </div>
       </div>
     </>
   );
