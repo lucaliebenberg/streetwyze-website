@@ -9,10 +9,19 @@ import slide0 from "../assets/eatwyze/slide-00.png";
 import slide1 from "../assets/eatwyze/slide-01.png";
 import slide3 from "../assets/eatwyze/slide-03.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// initialize AOS
+AOS.init();
+
 function OurApp() {
   return (
     <>
-      <div className="bg-black min-h-[40vh] p-5 flex flex-row justify-center align-middle pt-[4rem] pb-[4rem]">
+      <div
+        className="bg-black min-h-[40vh] p-5 flex flex-row justify-center align-middle pt-[4rem] pb-[4rem]"
+        data-aos="fade-up"
+      >
         <img
           src={picture}
           alt="streetwyze image"

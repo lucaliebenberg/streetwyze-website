@@ -1,9 +1,17 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// initialize AOS
+AOS.init();
 
 function About() {
   return (
     <>
-      <div className="w-full bg-black min-h-[50vh] mb-5 p-16 md:p-[6rem]">
+      <div
+        className="w-full bg-black min-h-[50vh] mb-5 p-16 md:p-[6rem]"
+        data-aos="fade-up"
+      >
         <h1 className="text-white font-bold text-[1.6rem] md:text-[2rem] mb-5">
           Vision
         </h1>

@@ -5,10 +5,16 @@ import bead1 from "../assets/store/city1.jpg";
 import bead2 from "../assets/store/city2.jpg";
 import bead3 from "../assets/store/city3.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// initialize AOS
+AOS.init();
+
 const OurStore = () => {
   return (
     <>
-      <div className="pt-[0.75rem] bg-black">
+      <div className="pt-[0.75rem] bg-black" data-aos="fade-up">
         <div className="text-white p-10 md:p-[6rem]">
           <h1 className="text-[2rem] font-bold">T-Shirts and Tote bags</h1>
           <p className="mt-[2rem] md:text-lg">

@@ -4,9 +4,18 @@ import React from "react";
 import InstaLogo from "../assets/instagram-logo.png";
 import LinkedInLogo from "../assets/linkedin-logo.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// initialize AOS
+AOS.init();
+
 function ContactUs() {
   return (
-    <div className="bg-black text-white p-4 flex flex-col md:flex-row justify-center align-middle pt-[4rem] pb-[4rem]">
+    <div
+      className="bg-black text-white p-4 flex flex-col md:flex-row justify-center align-middle pt-[4rem] pb-[4rem]"
+      data-aos="fade-up"
+    >
       <div className="mr-auto ml-auto text-center">
         <div className="flex flex-col mt-[2rem] mb-[2rem]">
           <h1 className="text-[1.6rem] md:text-[2rem] font-bold mb-3">

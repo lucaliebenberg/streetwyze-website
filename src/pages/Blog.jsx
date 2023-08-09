@@ -1,9 +1,18 @@
 import React from "react";
 import blogImg from "../assets/blog/blog-image.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// initialize AOS
+AOS.init();
+
 function Blog() {
   return (
-    <div className="bg-black min-h-[45vh] pt-8 flex justify-center align-middle">
+    <div
+      className="bg-black min-h-[45vh] pt-8 flex justify-center align-middle"
+      data-aos="fade-up"
+    >
       <div className="pb-5 pt-10 flex flex-col justify-center align-middle p-8">
         <img
           src={blogImg}

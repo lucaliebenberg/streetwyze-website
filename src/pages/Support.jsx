@@ -1,8 +1,17 @@
 import React from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// initialize AOS
+AOS.init();
+
 const Support = () => {
   return (
-    <div className="bg-black w-full h-auto text-white p-4 pt-[2rem]">
+    <div
+      className="bg-black w-full h-auto text-white p-4 pt-[2rem]"
+      data-aos="fade-up"
+    >
       <div className=" ml-auto mr-auto">
         <h1 className="text-[1.4rem] md:text-[2rem] font-bold p-4 md:p-16 mb:pb-0">
           Support Us
