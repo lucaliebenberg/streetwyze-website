@@ -1,15 +1,24 @@
 import React from "react";
+import picture from "../assets/travelwyze/family.jpg";
+import pic1 from "../assets/travelwyze/image1.png";
+import pic2 from "../assets/travelwyze/image2.png";
+
+// eatwyze
+import pic3 from "../assets/eatwyze/restauruant.jpg";
+import slide0 from "../assets/eatwyze/slide-00.png";
+import slide1 from "../assets/eatwyze/slide-01.png";
+import slide3 from "../assets/eatwyze/slide-03.png";
 
 function OurApp() {
   return (
     <>
       <div className="bg-black min-h-[40vh] p-5 flex flex-row justify-center align-middle pt-[4rem] pb-[4rem]">
         <img
-          src="https://picsum.photos/500/300"
+          src={picture}
           alt="streetwyze image"
-          className="rounded-sm"
-          width="500"
-          height="300"
+          className="rounded-md"
+          width="600"
+          height="600"
         />
       </div>
       <div className="bg-white text-back p-16">
@@ -76,16 +85,16 @@ function OurApp() {
       </div>
       <div className="bg-black h-auto w-full p-5 flex flex-col md:flex-row justify-around align-middle gap-12">
         <img
-          src="https://picsum.photos/500/300"
+          src={pic1}
           alt="streetwyze image"
-          className="rounded-sm"
+          className="rounded-md"
           width="500"
           height="300"
         />
         <img
-          src="https://picsum.photos/500/300"
+          src={pic2}
           alt="streetwyze image"
-          className="rounded-sm"
+          className="rounded-md"
           width="500"
           height="300"
         />
@@ -96,7 +105,7 @@ function OurApp() {
         </h1>
         <div className="flex flex-row justify-center align-middle pt-[4rem] pb-[4rem] p-8">
           <img
-            src="https://picsum.photos/500/300"
+            src={slide0}
             alt="streetwyze image"
             className="rounded-sm"
             width="500"
@@ -113,26 +122,26 @@ function OurApp() {
         </p>
         <div className="flex flex-col md:flex-row justify-around align-middle pt-[3rem] pb-[4rem] gap-16 p-8">
           <img
-            src="https://picsum.photos/300/300"
+            src={slide1}
             alt="streetwyze image"
             className="rounded-sm"
-            width="300"
+            width="500"
             height="300"
           />
           <img
-            src="https://picsum.photos/300/300"
+            src={slide3}
             alt="streetwyze image"
-            className="rounded-sm"
-            width="300"
+            className="rounded-md"
+            width="500"
             height="300"
           />
-          <img
+          {/* <img
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
-            className="rounded-sm"
+            className="rounded-md"
             width="300"
             height="300"
-          />
+          /> */}
         </div>
       </div>
       <div className="bg-black w-full h-auto text-white p-4">
@@ -141,9 +150,9 @@ function OurApp() {
         </h>
         <div className="pt-[3rem] flex flex-col md:flex-row justify-around align-middle p-8">
           <img
-            src="https://picsum.photos/500/300"
+            src={pic3}
             alt="streetwyze image"
-            className="rounded-sm"
+            className="rounded-md"
             width="500"
             height="300"
           />
@@ -156,29 +165,6 @@ function OurApp() {
           of adventure without compromising on safety. The fun awaits, so let's
           play it safe!
         </p>
-        <div className="flex flex-col md:flex-row justify-around align-middle pt-[3rem] pb-[4rem] gap-16 p-8">
-          <img
-            src="https://picsum.photos/320/300"
-            alt="streetwyze image"
-            className="rounded-sm"
-            width="320"
-            height="300"
-          />
-          <img
-            src="https://picsum.photos/320/300"
-            alt="streetwyze image"
-            className="rounded-sm"
-            width="320"
-            height="300"
-          />
-          <img
-            src="https://picsum.photos/320/300"
-            alt="streetwyze image"
-            className="rounded-sm"
-            width="320"
-            height="300"
-          />
-        </div>
       </div>
     </>
   );

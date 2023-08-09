@@ -1,4 +1,5 @@
 import React from "react";
+import shopItems from "../assets/store/shop-items.jpg";
 
 const OurStore = () => {
   return (
@@ -31,16 +32,18 @@ const OurStore = () => {
             and wholeheartedly welcome you to the growing StreetWyze team, where
             your involvement leaves an indelible mark.
           </p>
-          <div className="flex flex-col md:flex-row justify-center align-middle p-4 mt-[2rem] mb-[2rem]">
+          <div className="flex flex-col md:flex-row justify-center align-middle p-4 mt-[2rem]">
             <img
-              src="https://picsum.photos/500/300"
+              src={shopItems}
               alt="streetwyze image"
-              className="rounded-sm p-2"
+              className="rounded-md p-2"
+              width="600"
+              height="600"
             />
           </div>
         </div>
       </div>
-      <div className="bg-white text-black mt-[1rem] p-10 md:p-[6rem]">
+      <div className="bg-white text-black p-10 md:p-[6rem]">
         <h1 className="text-[2rem] font-bold">Beaded products</h1>
         <p className="mt-[2rem] md:text-lg">
           We've joined forces with a talented group of South African artisans
@@ -63,17 +66,17 @@ const OurStore = () => {
           <img
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
-            className="mt-4 rounded-sm"
+            className="mt-4 rounded-md"
           />
           <img
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
-            className="mt-4 rounded-sm"
+            className="mt-4 rounded-md"
           />
           <img
             src="https://picsum.photos/300/300"
             alt="streetwyze image"
-            className="mt-4 rounded-sm"
+            className="mt-4 rounded-md"
           />
         </div>
       </div>

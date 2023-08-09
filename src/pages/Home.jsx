@@ -23,7 +23,7 @@ const Home = () => {
   }, [showPopup]);
 
   const iframe =
-    ' <iframe src="https://ama-chat.com/chat?tou=city-of-cape-town-support" width="700px" height="600px" style="border:none;"</iframe>';
+    ' <iframe src="https://ama-chat.com/chat?tou=city-of-cape-town-support" width="500px" height="600px" style="border:none;"</iframe>';
   return (
     <div>
       {showPopup && <Popup onClose={() => setShowPopup(false)} />}
@@ -32,7 +32,7 @@ const Home = () => {
       <WhyUs />
       <Companies />
       <Pricing />
-      <div className="flex flex-row justify-center align-middle ml-auto mr-auto bg-black pb-8">
+      <div className="flex flex-row justify-center align-middle ml-auto mr-auto bg-black pb-8 p-12">
         <Iframe iframe={iframe} className="pr-8 rounded-md" />
       </div>
     </div>
